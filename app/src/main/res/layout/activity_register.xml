@@ -17,7 +17,7 @@
         android:layout_marginRight=".3in"/>
 
     <EditText
-        android:id="@+id/register_middletName"
+        android:id="@+id/register_mName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Middle Name"
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Last Name"
-        android:layout_below="@id/register_middletName"
+        android:layout_below="@id/register_mName"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft=".3in"
         android:layout_marginRight=".3in"/>
