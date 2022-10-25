@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073807705114",
+    "project_id": "hyperfinder-5a223",
+    "storage_bucket": "hyperfinder-5a223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073807705114:android:7779c2804dfbbeb7ee7da3",
+        "android_client_info": {
+          "package_name": "com.example.hyperfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073807705114-64s3bi418mnfkfvqgs0hosjolp5vas30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDURgAWxaJjiHaSxtA4f9RnX_V2vui-4DI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073807705114-64s3bi418mnfkfvqgs0hosjolp5vas30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
