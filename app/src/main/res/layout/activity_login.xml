@@ -4,24 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:layout_margin="10dp">
+    tools:context=".LoginActivity">
 
-    <TextView
-        android:id="@+id/text_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter Login Credentials"
-        android:textSize="20dp"
-        android:layout_marginBottom="20dp"/>
 
     <EditText
         android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:layout_below="@+id/text_login"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="1.5in"
+        android:layout_marginLeft=".5in"
+        android:layout_marginRight=".5in"/>
 
     <EditText
         android:id="@+id/login_password"
@@ -29,7 +23,9 @@
         android:layout_height="wrap_content"
         android:hint="password"
         android:layout_below="@+id/login_email"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft=".5in"
+        android:layout_marginRight=".5in"/>
 
     <Button
         android:id="@+id/login"
@@ -37,7 +33,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/login_password"
         android:text="Login"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft=".8in"
+        android:layout_marginRight=".8in"/>
 
     <TextView
         android:id="@+id/text_register"
@@ -46,6 +44,8 @@
         android:layout_below="@+id/login"
         android:text="New User Register"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft=".7in"
+        android:layout_marginRight=".7in"
         android:textAlignment="center"/>
 
 </RelativeLayout>

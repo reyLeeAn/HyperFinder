@@ -4,24 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
-    android:layout_margin="10dp">
-
-    <TextView
-        android:id="@+id/text_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Register Here"
-        android:textSize="20dp"
-        android:layout_marginBottom="20dp"/>
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/register_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:layout_below="@+id/text_register"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop=".4in"
+        android:layout_marginLeft=".3in"
+        android:layout_marginRight=".3in"/>
 
     <EditText
         android:id="@+id/register_password"
@@ -29,7 +22,9 @@
         android:layout_height="wrap_content"
         android:hint="password"
         android:layout_below="@+id/register_email"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft=".3in"
+        android:layout_marginRight=".3in"/>
 
     <Button
         android:id="@+id/register"
@@ -37,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/register_password"
         android:text="Register"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft=".7in"
+        android:layout_marginRight=".7in"/>
 
     <TextView
         android:id="@+id/text_login"
@@ -46,6 +43,8 @@
         android:layout_below="@+id/register"
         android:text="Existing User Login"
         android:layout_marginBottom="20dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:layout_marginLeft=".7in"
+        android:layout_marginRight=".7in"/>
 
 </RelativeLayout>
